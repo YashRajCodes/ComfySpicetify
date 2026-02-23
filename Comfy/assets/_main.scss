@@ -1,11 +1,11 @@
 // Global Nav Support
-:root .global-nav {
-	.Root__main-view .main-view-container .main-entityHeader-container {
-		padding: 32px;
-		align-items: center;
-		margin-top: 64px;
-	}
-}
+// :root .global-nav {
+// 	.Root__main-view .main-view-container .main-entityHeader-container {
+// 		padding: 32px;
+// 		align-items: center;
+// 		margin-top: 64px;
+// 	}
+// }
 
 :root #main.Banner-Enabled {
 	.comfy-banner-frame {
@@ -77,6 +77,7 @@
 	.main-entityHeader-background {
 		height: calc(40vh + var(--tracklist-gradient-height));
 		max-height: 100%;
+
 		&.main-entityHeader-overlay {
 			--bgColor: unset !important;
 		}

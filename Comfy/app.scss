@@ -60,12 +60,8 @@
 	}
 
 	// Custom Topbar Height + Bg Colour Matching
-	&:not(:has(.global-nav)) .Root__top-container {
+	.Root__top-container {
 		padding-top: max(calc(var(--comfy-topbar-height, 40px) / var(--zoom, 1)), 8px) !important;
-	}
-	
-	.global-nav .Root__top-container {
-		grid-template-rows: max(48px, calc(var(--comfy-topbar-height, 64px) / var(--zoom, 1) - 16px)) minmax(0, 1fr) auto;
 	}
 
 	&.spotify__container--is-desktop.spotify__os--is-windows:not(.fullscreen) {
